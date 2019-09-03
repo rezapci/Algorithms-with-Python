@@ -1,18 +1,17 @@
-# Ссылка на блоксхемы:
+# Reference to Flowcharts:
 # https://drive.google.com/file/d/1MxReXi2rVMhkFsbYynmA2gXycnVpdrwP/view?usp=sharing
 
-# Пользователь вводит две буквы.
-# Определить, на каких местах алфавита они стоят и сколько между ними находится букв.
+# The user enters two letters.
+# Determine where in the alphabet they stand and how many letters are between them.
 
-print("Введите две буквы латинского алфавита")
-x = ord(input("Первая буква: "))
-y = ord(input("Вторая буква: "))
+print ("Enter two letters of the Latin alphabet")
+x =  ord (input("First letter:"))
+y =  ord (input("Second letter:"))
 
 px = x - ord('a') + 1
-py = y - ord('a') + 1
+py = y - ord('a') +  1
 
-print("Позиции этих букв: {} и {}".format(px, py))
+print("Positions of these letters:{}and{}".format(px, py))
 
 l = abs(px - py)
-
-print("Между ними {} букв(ы)".format(l))
+print("Between them {} letters(s)".format(l)
