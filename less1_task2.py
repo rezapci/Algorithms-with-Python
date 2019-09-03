@@ -1,9 +1,9 @@
 # Ссылка на блоксхемы:
 # https://drive.google.com/file/d/1MxReXi2rVMhkFsbYynmA2gXycnVpdrwP/view?usp=sharing
 
-# Выполнить логические побитовые операции «И», «ИЛИ» и др. над числами 5 и 6.
-# Выполнить над числом 5 побитовый сдвиг вправо и влево на два знака.
-# Объяснить полученный результат.
+# Perform logical bitwise operations "AND", "OR", etc. on the numbers 5 and 6.
+# Perform a bitwise shift over the number 5 to the right and left by two characters.
+# Explain the result.
 
 a = 5
 b = 6
