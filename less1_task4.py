@@ -1,32 +1,32 @@
-# Ссылка на блоксхемы:
+# Reference to Flowcharts:
 # https://drive.google.com/file/d/1MxReXi2rVMhkFsbYynmA2gXycnVpdrwP/view?usp=sharing
 
-# Написать программу, которая генерирует в указанных пользователем границах:
-# случайное целое число;
-# случайное вещественное число;
-# случайный символ.
-# Для каждого из трех случаев пользователь задает свои границы диапазона.
-# Например, если надо получить случайный символ от 'a' до 'z', то вводятся эти символы.
-# Программа должна вывести на экран любой символ алфавита от 'a' до 'z' включительно.
+# Write a program that generates within user-specified boundaries:
+# random integer;
+# random real number;
+# random character.
+# For each of the three cases, the user sets his range limits.
+# For example, if you need to get a random character from 'a' to 'z', then these characters are entered.
+# The program should display any character of the alphabet from 'a' to 'z' inclusive.
 
 import random
 
-print("Вычислим случайное целое число в указанном диапазоне")
+print ( " Compute a random integer in the specified range " )
 
-min = int(input("Введите минимальное число: "))
-max = int(input("Введите максимальное число: "))
+min  =  int ( input ( " Enter the minimum number: " ))
+max  =  int ( input ( " Enter the maximum number: " ))
 
-integ = random.randint(0, max - min) + min
+integ = random.randint ( 0 , max  -  min ) +  min
 
-print("Случайное целое число в этом диапазоне: {}".format(integ))
+print ( " Random integer in this range: {} " .format (integ))
 
-flt = random.random() * (max - min) + min
+flt = random.random () * ( max  -  min ) +  min
 
-print("Случайное вещественное число в этом диапазоне: {0:.2f}".format(flt))
+print ( " Random real number in this range: {0 : .2f } " .format (flt))
 
-s1 = ord(input("Введите первый символ: "))
-s2 = ord(input("Введите второй символ: "))
+s1 =  ord ( input ( " Enter the first character: " ))
+s2 =  ord ( input ( " Enter the second character: " ))
 
 symbol = random.randint(0, (s2 - s1)) + s1
 
-print("Случайный символ в этом диапазоне: {}".format(chr(symbol)))
+print ( " Random character in this range: {} " .format ( chr (symbol)))
