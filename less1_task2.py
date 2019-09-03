@@ -1,4 +1,4 @@
-# Ссылка на блоксхемы:
+# Reference to Flowcharts:
 # https://drive.google.com/file/d/1MxReXi2rVMhkFsbYynmA2gXycnVpdrwP/view?usp=sharing
 
 # Perform logical bitwise operations "AND", "OR", etc. on the numbers 5 and 6.
