@@ -12,6 +12,6 @@ print("{} & {} = {} ({})".format(a, b, a & b, bin(a & b)))
 
 print("{} | {} = {} ({})".format(a, b, a | b, bin(a | b)))
 
-print("Побитовый сдвиг числа {} вправо на два знака: {} ({})".format(a, a >> 2, bin(a >> 2)))
+print ( "The bitwise shift of the number {} to the right by two digits: {} ( {} ) " .format (a, a >>  2 , bin (a >>  2 )))
 
-print("Побитовый сдвиг числа {} влево на два знака: {} ({})".format(a, a << 2, bin(a << 2)))
+print ( " Bitwise shift of the number {} to the left by two characters: {} ( {} ) " .format (a, a <<  2 , bin (a <<  2 )))
