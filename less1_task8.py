@@ -3,15 +3,15 @@
 
 # Определить, является ли год, который ввел пользователем, високосным или невисокосным.
 
-print("Определим является ли год високосным")
-year = int(input("Введите год: "))
+print ( " Determine if a year is a leap year " )
+year = int(input("Enter the year: "))
 
 if year % 4 != 0:
-    print("Год не високосный")
+    print ( "The year is not a leap year " )
 elif year % 100 == 0:
     if year % 400 == 0:
-        print("Год високосный")
+        print ( " Leap year " )
     else:
-        print("Год не високосный")
+        print ( "The year is not a leap year " )
 else:
-    print("Год високосый")
+    print ( " Leap year " )
