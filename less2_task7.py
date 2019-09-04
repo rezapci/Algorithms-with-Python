@@ -1,20 +1,20 @@
-# Ссылка на блок-схемы:
+# Link to flowcharts:
 # https://drive.google.com/file/d/12xTQSyUeeSIWUDkwn3nWW-KHMmj31Rxy/view?usp=sharing
 
-# Написать программу, доказывающую или проверяющую,
-# что для множества натуральных чисел выполняется равенство: 1+2+...+n = n(n+1)/2, где n – любое натуральное число.
+# Write a program proving or verifying,
+# that for the set of natural numbers the equality holds: 1 + 2 + ... + n = n (n + 1) / 2, where n is any natural number.
 
-print("Проверим, справедливо ли равенство вида 1+2+...+n = n(n+1)/2")
+print ( " Let's check if the equality is of the form 1 + 2 + ... + n = n (n + 1) / 2 " )
 
-n = int(input("Введите натуральное число n: "))
+n =  int ( input ( " Enter a positive integer n: " ))
 x = 0
 
 for i in range(1, n+1):
     x = i + x
 
-y = n * (n + 1) // 2
+y = n * (n +  1 ) //  2
 
 if x == y:
-    print("Равенство доказано")
+    print ( " Equality Proved " )
 else:
-    print("Равенство не доказано")
+    print ( " Equality not proven " )
