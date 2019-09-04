@@ -1,21 +1,21 @@
-# Ссылка на блок-схемы:
+# Link to flowcharts:
 # https://drive.google.com/file/d/12xTQSyUeeSIWUDkwn3nWW-KHMmj31Rxy/view?usp=sharing
 
-# Сформировать из введенного числа обратное по порядку входящих в него цифр и вывести на экран.
-# Например, если введено число 3486, то надо вывести число 6843.
+# Form from the entered number the reverse in the order of the numbers included in it and display it on the screen.
+# For example, if the number 3486 is entered, then you need to print the number 6843.
 
-print("Сформируем обратное число")
-number = input("Введите число: ")
+print("Form the Inverse Number")
+number = input("Enter the number: ")
 
-# Можно было решить без циклов так:
+# One could solve without loops like this:
 
-# rebum = number[::-1]
-# print(rebum)
+# Subsidized = number [:: - 1]
+# Print (the situation)
 
-# Или через два цикла вот так:
+# Or after two cycles like this:
 
 number = int(number)
-rebmun = []
+won = []
 
 while number>0:
     rebmun.append(number % 10)
@@ -23,4 +23,3 @@ while number>0:
 
 for num in rebmun:
     print(num, end='')
-
