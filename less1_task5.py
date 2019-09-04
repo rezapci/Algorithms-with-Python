@@ -4,14 +4,14 @@
 # The user enters two letters.
 # Determine where in the alphabet they stand and how many letters are between them.
 
-print ("Enter two letters of the Latin alphabet")
-x =  ord (input("First letter:"))
-y =  ord (input("Second letter:"))
+print("Enter two letters of the Latin alphabet")
+x = ord (input("First letter:"))
+y = ord (input("Second letter:"))
 
 px = x - ord('a') + 1
-py = y - ord('a') +  1
+py = y - ord('a') + 1
 
-print("Positions of these letters:{}and{}".format(px, py))
+print("Positions of these letters: {} and {}".format(px, py))
 
 l = abs(px - py)
-print("Between them {} letters(s)".format(l)
+print("Between them {} letters(s)".format(l))
