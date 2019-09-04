@@ -1,17 +1,17 @@
-# Ссылка на блоксхемы:
+# Reference to Flowcharts:
 # https://drive.google.com/file/d/1MxReXi2rVMhkFsbYynmA2gXycnVpdrwP/view?usp=sharing
 
-# Вводятся три разных числа.
-# Найти, какое из них является средним (больше одного, но меньше другого).
+# Three different numbers are entered.
+# Find which one is medium (more than one, but less than the other).
 
-print("Определим среднее число из трех")
-a = int(input("Введите певое число: "))
-b = int(input("Введите второе число: "))
-c = int(input("Введите третье число: "))
+print ( " Define the average of three " )
+a =  int ( input ( " Enter the first number: " ))
+b =  int ( input ( " Enter the second number: " ))
+c =  int ( input ( " Enter the third number: " ))
 
 if b < a < c or c < a < b:
-    print("Среднее число {}".format(a))
+    print ( " Average {} " .format (a))
 elif a < b < c or c < b < a:
-    print("Среднее число {}".format(b))
+    print ( " Average {} " .format (b))
 else:
-    print("Среднее число {}".format(c))
+    print ( " Average {} " .format (c))
