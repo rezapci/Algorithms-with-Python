@@ -1,4 +1,4 @@
-# В массиве случайных целых чисел поменять местами минимальный и максимальный элементы.
+# In the array of random integers, swap the minimum and maximum elements.
 
 import random
 
@@ -17,11 +17,10 @@ for i in arr:
 min_index = arr.index(minimum_one)
 max_index = arr.index(maximum_one)
 
-print('Массив случайных целых чисел: ', arr)
-print('Минимальное число - {}, находится в позиции - {}'.format(minimum_one, min_index))
-print('Максимальное число - {}, находится в позиции - {}'.format(maximum_one, max_index))
+print ('Array of random integers: ' , arr)
+print ('The minimum number is {} , located at the position - {} ' .format (minimum_one, min_index))
+print ('The maximum number is {} , located at the position - {} ' .format (maximum_one, max_index))
 
 arr[min_index], arr[max_index] = arr[max_index], arr[min_index]
 
-print('Массив после рокировки:       ', arr)
-
+print ('Array after castling:        ' , arr)
