@@ -1,19 +1,19 @@
-# Ссылка на блоксхемы:
+# Reference to Flowcharts:
 # https://drive.google.com/file/d/1MxReXi2rVMhkFsbYynmA2gXycnVpdrwP/view?usp=sharing
 
-# По длинам трех отрезков, введенных пользователем, определить возможность существования треугольника, составленного из этих отрезков.
-# Если такой треугольник существует, то определить, является ли он разносторонним, равнобедренным или равносторонним.
+# Based on the lengths of the three segments entered by the user, determine the possibility of the existence of a triangle composed of these segments.
+# If such a triangle exists, then determine whether it is versatile, isosceles or equilateral.
 
-print("Определим возможность существования треугольника и его тип")
-a = int(input("Введите длину первого отрезка: "))
-b = int(input("Введите длину второго отрезка: "))
-c = int(input("Введите длину третьего отрезка: "))
+print ( " Define the possibility of the existence of a triangle and its type " )
+a =  int ( input ( " Enter the length of the first segment: " ))
+b =  int ( input ( " Enter the length of the second segment: " ))
+c =  int ( input ( " Enter the length of the third segment: " ))
 
 if a + b <= c or a + c <= b or b + c <= a:
-    print("Такой треугольник не существует")
+    print ( " Such a triangle does not exist " )
 elif a != b and a != c and b != c:
-    print("Треугольник разносторонний")
+    print ( " Triangle versatile " )
 elif a == b == c:
-    print("Треугольник равносторонний")
+    print ( " Triangle equilateral " )
 else:
-    print("Треугольник равнобедренный")
+    print ( " Isosceles Triangle " )
