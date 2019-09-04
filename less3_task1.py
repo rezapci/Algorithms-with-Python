@@ -1,13 +1,13 @@
-# В диапазоне натуральных чисел от 2 до 99 определить, сколько из них кратны любому из чисел в диапазоне от 2 до 9.
+# In the range of natural numbers from 2 to 99, determine how many of them are multiples of any of the numbers in the range from 2 to 9.
 
-print('Посчитаем сколько чисел в диапазоне от 2 до 99 кратны любому из чисел в диапазоне от 2 до 9')
+print (' Lets calculate how many numbers in the range from 2 to 99 are multiples of any of the numbers in the range from 2 to 9 ' )
 
 arr = [0] * 8
 
-for i in range(2, 100):
+for i in  range (2 , 100):
     for j in range(2, 10):
         if i % j == 0:
-            arr[j - 2] += 1
+            arr [j -  2] += 1
 
 dict={}
 x = 0
