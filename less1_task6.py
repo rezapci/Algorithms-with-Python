@@ -1,13 +1,13 @@
-# Ссылка на блоксхемы:
+# Reference to Flowcharts:
 # https://drive.google.com/file/d/1MxReXi2rVMhkFsbYynmA2gXycnVpdrwP/view?usp=sharing
 
-# Пользователь вводит номер буквы в алфавите.
-# Определить, какая это буква.
+# The user enters the number of the letter in the alphabet.
+# Determine which letter it is.
 
-print("Определим букву по ее номеру")
+print ( " Define a letter by its number " )
 
-x = int(input("Введите номер буквы "))
+x =  int ( input ( " Enter the letter number " ))
 
 letter = ord('a') + x - 1
 
-print("Это буква: {}".format(chr(letter)))
+print ( " This is the letter: {} " .format ( chr (letter)))
