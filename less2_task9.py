@@ -1,12 +1,12 @@
-# Ссылка на блок-схемы:
+# Link to flowcharts:
 # https://drive.google.com/file/d/12xTQSyUeeSIWUDkwn3nWW-KHMmj31Rxy/view?usp=sharing
 
-# Среди натуральных чисел, которые были введены, найти наибольшее по сумме цифр.
-# Вывести на экран это число и сумму его цифр.
+# Among the natural numbers that were entered, find the largest in the sum of the digits.
+# Display this number and the sum of its digits.
 
-print("Посчитаем самое большое по сумме цифр число")
+print ( " Count the largest number of digits " )
 
-number = int(input("Введите число: "))
+number = int(input("Enter the Number: "))
 max_number = 0
 max_sum = 0
 
@@ -20,6 +20,6 @@ while number != 0:
         max_sum = i
         max_number = j
 
-    number = int(input("Введите число: "))
+    number = int(input("Enter the Number: "))
 else:
-    print("Максимальное по сумме цифр число - {}, сумма его чисел равна - {}".format(max_number, max_sum))
+    print ( "The maximum number of digits is {} , the sum of its numbers is {} " .format (max_number, max_sum))
