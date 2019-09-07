@@ -28,6 +28,4 @@ if min_index > max_index:
 for i in range(min_index+1, max_index):
     sum_nums += arr[i]
 
-print('Сумма чисел между ними = {}'.format(sum_nums))
-
-
+print ('Sum of numbers between them = {}'.format(sum_nums))
