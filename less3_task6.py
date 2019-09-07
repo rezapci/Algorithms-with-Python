@@ -19,8 +19,8 @@ for i in arr:
 min_index = arr.index(minimum_one)
 max_index = arr.index(maximum_one)
 
-print('Массив случайных целых чисел: ', arr)
-print('Минимальное число - {}, максимальное число - {}'.format(minimum_one, maximum_one))
+print ('Array of random integers: ', arr)
+print ('The minimum number is {}, the maximum number is {}'.format(minimum_one, maximum_one))
 
 if min_index > max_index:
     min_index, max_index = max_index, min_index
