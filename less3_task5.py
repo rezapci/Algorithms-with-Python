@@ -13,4 +13,5 @@ for i in arr:
     if i < 0 and i > num:
         num = i
 
-print('Максимальный отрицательный элемент {}, его позиция: {}'.format(num, arr.index(num)))
+
+print ('The maximum negative element {}, its position: {}'.format(num, arr.index(num)))
