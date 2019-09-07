@@ -18,4 +18,5 @@ for i in range(len(arr)):
         n_quantity = quantity
         n = arr[i]
 
-print('Число {} встречается чаще всего. Количество повторений - {}'.format(n, n_quantity))
+
+print ('The number {} is most common. The number of repetitions is - {}'.format(n, n_quantity))
