@@ -1,5 +1,5 @@
-# В массиве найти максимальный отрицательный элемент.
-# Вывести на экран его значение и позицию в массиве.
+# Find the maximum negative element in the array.
+# Display its value and position in the array.
 
 import random
 
