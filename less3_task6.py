@@ -1,5 +1,5 @@
-#  В одномерном массиве найти сумму элементов, находящихся между минимальным и максимальным элементами.
-# Сами минимальный и максимальный элементы в сумму не включать.
+# In a one-dimensional array, find the sum of the elements between the minimum and maximum elements.
+# The minimum and maximum elements should not be included in the amount.
 
 import random
 
