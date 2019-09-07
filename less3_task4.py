@@ -1,4 +1,4 @@
-# Определить, какое число в массиве встречается чаще всего.
+# Determine which number in the array is most common.
 
 import random
 
